@@ -1,0 +1,29 @@
+
+body {
+    background-color: antiquewhite;
+}
+
+#navBar {
+    background-color: blanchedalmond;
+    border-bottom: 5px solid palevioletred;
+    margin: 0px, 5px, 20px, 5px;
+    padding: 0px, 10px, 5px, 10px;
+    display: table;
+}
+
+.navElement {
+    display: table-cell;
+    text-align: center;
+    padding: 2px;
+    width: 100px;
+}
+
+.genInfoChild{
+    display: inline-block;
+    padding: 10pt;
+}
+
+#generalInfo {
+    text-align: center;
+    background-color: bisque;
+}
