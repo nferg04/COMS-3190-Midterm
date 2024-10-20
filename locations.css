@@ -1,0 +1,28 @@
+body {
+    background-color: #564946;
+    color: #141414;
+}
+
+#navBar {
+    background-color: #676f54;
+    border: 2px solid #a7adc6;
+    margin-bottom: 10px;
+    display: table;
+    font-size: large;
+    width: 100%;
+}
+
+.navElement {
+    display: table-cell;
+    text-align: center;
+    padding: 2px;
+    width: 100px;
+}
+
+footer {
+    text-align: center;
+    background-color: #eabe7c;
+    color: #141414;
+    border: 2px solid #a7adc6;
+    margin-top: 10px;
+}
