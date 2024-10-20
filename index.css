@@ -55,3 +55,8 @@ body {
 #projectNameBody {
     margin: 15px 0px 10px 0px;
 }
+
+h1 {
+    text-align: center;
+    color: #141414;
+}

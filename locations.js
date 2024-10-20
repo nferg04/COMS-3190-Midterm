@@ -1,20 +1,25 @@
-function listAll() {
+function listAll(location) {
     fetch("./data.json")
     .then(response => response.json())
-    .then(myDishes => loadDishes(myDishes, 1))
+    .then(myDishes => loadDishes(myDishes, 1, location))
     .catch(err => console.log("Error: " + err))
 }
 
 
-function loadDishes(myDishes, option) {
+function loadDishes(myDishes, option, location) {
     var dishCard = document.getElementById("col");
     dishCard.innerHTML = "";
     
     let allDishes = Object.values(myDishes)[0];
     let sortedDishes = [];
 
+    for(var i = 0; i < allDishes.length; i++) {
+        if(allDishes[i].location == location) {
+            sortedDishes.push(allDishes[i]);
+        }
+    }
+
     if(option == 1) {
-        sortedDishes = allDishes;
     }
 
     for (var i = 0; i < sortedDishes.length; i++) {
@@ -28,7 +33,7 @@ function loadDishes(myDishes, option) {
             <div class="card shadow-sm">
                 <img src=${url} class="card-img-top" alt="..."></img>
                 <div class="card-body">
-                    <p class="card-text"> <strong>${dish}</strong>, ${restraunt}, $${price}</p>
+                    <p class="card-text"> <strong>${restraunt}</strong><br> ${dish}, $${price}</p>
                 </div>
             </div>
         `;
