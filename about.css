@@ -1,14 +1,16 @@
 
 body {
-    background-color: antiquewhite;
+    background-color: #564946;
+    color: #141414;
 }
 
 #navBar {
-    background-color: blanchedalmond;
-    border-bottom: 5px solid palevioletred;
-    margin: 0px, 5px, 20px, 5px;
-    padding: 0px, 10px, 5px, 10px;
+    background-color: #676f54;
+    border: 2px solid #a7adc6;
+    margin-bottom: 10px;
     display: table;
+    font-size: large;
+    width: 100%;
 }
 
 .navElement {
@@ -20,10 +22,31 @@ body {
 
 .genInfoChild{
     display: inline-block;
+    text-align: center;
     padding: 10pt;
 }
 
 #generalInfo {
+    background-color: #eabe7c;
     text-align: center;
-    background-color: bisque;
+}
+
+#studentInfo {
+    background-color: #eabe7c;
+    text-align: center;
+}
+
+.eachInfo {
+    display: inline-block;
+    text-align: center;
+    color: #141414;
+    padding: 10pt;
+}
+
+footer {
+    text-align: center;
+    background-color: #eabe7c;
+    color: #141414;
+    border: 2px solid #a7adc6;
+    margin-top: 10px;
 }
