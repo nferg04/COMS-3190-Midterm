@@ -1,0 +1,13 @@
+{
+    "food": [
+        {
+            "id": 1,
+            "dish": "MacAndCheese",
+            "price": 10,
+            "type": "Pasta",
+            "restraunt": "Macubana",
+            "location": "CampusTown",
+            "url": "blah blah"
+        }
+    ]
+}
