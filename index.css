@@ -10,3 +10,48 @@
     margin-top: 15px;
     margin-left: 100px;
 }
+
+footer {
+    text-align: center;
+    background-color: #eabe7c;
+    color: #141414;
+    border: 2px solid #a7adc6;
+    margin-top: 10px;
+}
+
+body {
+    background-color: #564946;
+    color: #141414;
+}
+
+#navBar {
+    background-color: #676f54;
+    border: 2px solid #a7adc6;
+    margin-bottom: 10px;
+    display: table;
+    font-size: large;
+    width: 100%;
+}
+
+.navElement {
+    display: table-cell;
+    text-align: center;
+    padding: 2px;
+    width: 100px;
+}
+
+.card{
+    background-color: #eabe7c;
+}
+
+.card-text {
+    color: #141414;
+}
+
+#projectDescBody {
+    margin-bottom: 15px;
+}
+
+#projectNameBody {
+    margin: 15px 0px 10px 0px;
+}

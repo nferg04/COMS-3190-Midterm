@@ -26,3 +26,19 @@ footer {
     border: 2px solid #a7adc6;
     margin-top: 10px;
 }
+
+h1{
+    background-color: #eabe7c;
+    text-align: center;
+    color: #141414;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.buttons {
+    background-color: #eabe7c;
+    color: #141414;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+}
