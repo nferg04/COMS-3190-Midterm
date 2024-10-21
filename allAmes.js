@@ -4,7 +4,7 @@ let filterButton = document.getElementById("filterButton");
 filterButton.addEventListener("click", () => loadData(2));
 
 
-function loadData(option, location) {
+function loadData(option) {
     fetch("./data.json")
     .then(response => response.json())
     .then(myDishes => loadDishes(myDishes, option))
@@ -27,11 +27,7 @@ function loadDishes(myDishes, option) {
     if(option == 2) {
         let filterType = document.getElementById("filterInput").value;
         if(filterType == "") {
-            for(var i = 0; i < allDishes.length; i++) {
-                if(allDishes[i].location == location) {
-                    sortedDishes.push(allDishes[i]);
-                }
-            }
+            sortedDishes = allDishes;
         }
         else {
             for(var i =0; i < allDishes.length; i++) {
