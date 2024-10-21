@@ -111,7 +111,66 @@
             "restraunt": "Wasabi",
             "location": "EastAmes",
             "url": "./images/turtleCheesecake.jpg"
+        },
+        {
+            "dish": "Burger",
+            "price": "8.75",
+            "type": "hamburger",
+            "restaurant": "clydes",
+            "location": "Campus",
+            "url": "./images/Clyde's burger.jpg"
+        },
+
+{
+            "dish": "Fries",
+            "price": "3.75",
+            "type": "FrenchFries",
+            "restaurant": "Clydes",
+            "location": "Campus",
+            "url": "./images/clydesFries.jpg"
+        },
+
+
+
+
+
+{
+            "dish": "Lo Mein",
+            "price": "7.50",
+            "type": "Lo Mein",
+            "restaurant": "MU food court",
+            "location": "Campus",
+            "url": "./images/pandaLomein.jpg"
         }
+
+
+{
+            "dish": "Pizza",
+            "price": "7.50",
+            "type": "Pizza",
+            "restaurant": "MU food court",
+            "location": "Campus",
+            "url": "./images/GodFathers.jpg"
+        },
+
+
+{
+            "dish": "Poke Bowl",
+            "price": "8.75",
+            "type": "Poke",
+            "restaurant": "MU food court",
+            "location": "Campus",
+            "url": "./images/Poke.jpg"
+        },
+{
+            "dish": "white bread sandwich",
+            "price": "7.25",
+            "type": "sandwich",
+            "restaurant": "MU food court",
+            "location": "Campus",
+            "url": "./images/sandwich.jpg"
+        }
+
     ]
 
 
