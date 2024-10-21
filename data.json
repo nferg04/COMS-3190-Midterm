@@ -216,45 +216,61 @@
             "location": "NorthAmes",
             "url": "./images/mongolianBeef.png"
         },
-    
-
-
-{
-    "dish": "cilantro mac",
-    "price": "11.59",
-    "type": "macaroni",
-    "restaurant": "Maccubanna",
-    "location": "CampusTown",
-    "url": "./images/mac1.jpg"
-},
-
-
-{
-    "dish": "American classic",
-    "price": "10.59",
-    "type": "Chinese",
-    "restaurant": "Maccubanna",
-    "location": "CampusTown",
-    "url": "./images/mac2.jpg"
-},
-{
-    "dish": "burrito combo",
-    "price": "9.59",
-    "type": "Mexican",
-    "restaurant": "Mr. Burrito",
-    "location": "CampusTown",
-    "url": "./images/Burrito2.jpg"
-},
-
-
-{
-    "dish": "beef burrito",
-    "price": "7.55",
-    "type": "Mexical",
-    "restaurant": "Mr. Burrito",
-    "location": "CampusTown",
-    "url": "./images/ burrito.jpg"
-}
-
-]
+        {
+            "dish": "cilantro mac",
+            "price": "11.59",
+            "type": "macaroni",
+            "restaurant": "Maccubanna",
+            "location": "CampusTown",
+            "url": "./images/mac1.jpg"
+        },
+        {
+            "dish": "American classic",
+            "price": "10.59",
+            "type": "Chinese",
+            "restaurant": "Maccubanna",
+            "location": "CampusTown",
+            "url": "./images/mac2.jpg"
+        },
+        {
+            "dish": "burrito combo",
+            "price": "9.59",
+            "type": "Mexican",
+            "restaurant": "Mr. Burrito",
+            "location": "CampusTown",
+            "url": "./images/Burrito2.jpg"
+        },
+        {
+            "dish": "beef burrito",
+            "price": "7.55",
+            "type": "Mexical",
+            "restaurant": "Mr. Burrito",
+            "location": "CampusTown",
+            "url": "./images/ burrito.jpg"
+        },
+        {
+            "dish": "Shrimp Fajitas",
+            "price": "18.95",
+            "type": "Mexican",
+            "restaurant": "El Azteca",
+            "location": "NorthAmes",
+            "url": "./images/AztecaFajitas.jpg"
+        },
+        {
+            "dish": "Burrito Grande",
+            "price": "11.45",
+            "type": "Mexican",
+            "restaurant": "El Azteca",
+            "location": "NorthAmes",
+            "url": "./images/AztecaBurrito.jpg"
+        },
+        {
+            "dish": "Burrito Deluxe",
+            "price": "11.95",
+            "type": "Mexican",
+            "restaurant": "El Azteca",
+            "location": "NorthAmes",
+            "url": "./images/threeBurrito.jpg"
+        }
+    ]
 }
