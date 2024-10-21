@@ -18,12 +18,19 @@
     </div>
     <h1>East Ames</h1>
     <div class="buttons">
-        <h3>View the food in east Ames by search for a specific type or by viewing all the options</h3>
-        <input type="text" placeholder="Search for a type of food"><br>
-        <button>Submit</button>
-        <button>See All</button>
+        <h3>View the food in East Ames by search for a specific type or by viewing all the options</h3>
+        <input type="text" placeholder="Search for a type of food" id="filterInput"><br>
+        <button id="filterButton">Submit</button>
     </div>
 
+
+    <div class="album py-5 bg-body-tertiary">
+        <div class="container" id="results">
+            <div id="col" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
+            </div>
+        </div>
+    </div>  
+    <script src="./eastAmes.js"></script>
 
     <footer>
         <p>&copy 2024 Nate Ferguson and John Buttell</p>
