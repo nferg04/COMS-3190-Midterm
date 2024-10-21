@@ -36,7 +36,7 @@ function loadDishes(myDishes, option) {
     for (var i = 0; i < sortedDishes.length; i++) {
         let dish = sortedDishes[i].dish;
         let price = sortedDishes[i].price;
-        let restraunt = sortedDishes[i].restraunt;
+        let restaurant = sortedDishes[i].restraunt;
         let type = sortedDishes[i].type;
         let url = sortedDishes[i].url;
         let AddDishCard = document.createElement("div");
@@ -45,7 +45,7 @@ function loadDishes(myDishes, option) {
             <div class="card shadow-sm">
                 <img src=${url} class="card-img-top" alt="..."></img>
                 <div class="card-body">
-                    <p class="card-text"> <strong>${restraunt}</strong><br> ${dish}, ${type} $${price}</p>
+                    <p class="card-text"> <strong>${restaurant}</strong><br> ${dish}, ${type} $${price}</p>
                 </div>
             </div>
         `;
