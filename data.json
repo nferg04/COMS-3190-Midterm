@@ -120,8 +120,7 @@
             "location": "Campus",
             "url": "./images/Clyde'sburger.jpg"
         },
-
-{
+        {
             "dish": "Fries",
             "price": "3.75",
             "type": "FrenchFries",
@@ -160,7 +159,62 @@
             "restaurant": "MU food court",
             "location": "Campus",
             "url": "./images/sandwich.jpg"
+        },
+        {
+            "dish": "Carnitas Tacos",
+            "price": "10.35",
+            "type": "Tacos",
+            "restaurant": "Boulder Tap House",
+            "location": "EastAmes",
+            "url": "./images/carnitasTacos.jpg"
+        },
+        {
+            "dish": "Fried Pickle Chips",
+            "price": "9.99",
+            "type": "Appetizer",
+            "restaurant": "Boulder Tap House",
+            "location": "EastAmes",
+            "url": "./images/friedPickleChips.jpg"
+        },
+        {            
+            "dish": "Green Goddess Salad",
+            "price": "12.99",
+            "type": "Salad",
+            "restaurant": "Boulder Tap House",
+            "location": "EastAmes",
+            "url": "./images/greenGoddessSalad.jpg"
+        },
+        {
+            "dish": "Hot Honey Chicken Sandwich",
+            "price": "14.99",
+            "type": "Sandwich",
+            "restaurant": "Boulder Tap House",
+            "location": "EastAmes",
+            "url": "./images/hotHoneyChickenSandwich.jpg"
+        },
+        {
+            "dish": "Fried Dumplings",
+            "price": "8.99",
+            "type": "Appetizer",
+            "restaurant": "888 Restaurant",
+            "location": "NorthAmes",
+            "url": "./images/friedDumpling.png"
+        },
+        {
+            "dish": "Chicken Broccoli",
+            "price": "12.99",
+            "type": "Chinese",
+            "restaurant": "888 Restaurant",
+            "location": "NorthAmes",
+            "url": "./images/chickenBroccoli.png"
+        },
+        {
+            "dish": "Mongolian Beef",
+            "price": "13.59",
+            "type": "Chinese",
+            "restaurant": "888 Restaurant",
+            "location": "NorthAmes",
+            "url": "./images/mongolianBeef.png"
         }
-
     ]
 }
