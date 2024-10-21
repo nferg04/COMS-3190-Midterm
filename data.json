@@ -4,7 +4,7 @@
             "dish": "Breadsticks",
             "price": "4.25",
             "type": "Appitizer",
-            "restraunt": "Jeffs Pizza",
+            "restaurant": "Jeffs Pizza",
             "location": "CampusTown",
             "url": "./images/breadsticks.png"
         },
@@ -12,7 +12,7 @@
             "dish": "Four Meat Classic",
             "price": "13.95 / 16.95 / 21.50 / 25.95 / 38.95",
             "type": "Pizza",
-            "restraunt": "Jeffs Pizza",
+            "restaurant": "Jeffs Pizza",
             "location": "CampusTown",
             "url": "./images/fourMeatClassic.png"
         },
@@ -20,7 +20,7 @@
             "dish": "Jeff's Favorite",
             "price": "8.50",
             "type": "Sandwich",
-            "restraunt": "Jeffs Pizza",
+            "restaurant": "Jeffs Pizza",
             "location": "CampusTown",
             "url": "./images/jeffsFavorite.png"
         },
@@ -28,7 +28,7 @@
             "dish": "Apple Struesel",
             "price": "5.95",
             "type": "Dessert",
-            "restraunt": "Jeffs Pizza",
+            "restaurant": "Jeffs Pizza",
             "location": "CampusTown",
             "url": "./images/appleStruesel.png"
         },
@@ -36,7 +36,7 @@
             "dish": "Brisket & Chili",
             "price": "15.00",
             "type": "Soup",
-            "restraunt": "Cornbred",
+            "restaurant": "Cornbred",
             "location": "EastAmes",
             "url": "./images/brisketAndChili.jpg"
         },
@@ -44,7 +44,7 @@
             "dish": "Half Rack of Ribs",
             "price": "16.00",
             "type": "BBQ",
-            "restraunt": "Cornbred",
+            "restaurant": "Cornbred",
             "location": "EastAmes",
             "url": "./images/halfRack.jpg"
         },
@@ -52,7 +52,7 @@
             "dish": "Flappers",
             "price": "12.00",
             "type": "Appitizer",
-            "restraunt": "Cornbred",
+            "restaurant": "Cornbred",
             "location": "EastAmes",
             "url": "./images/flappers.jpg"
         },
@@ -60,7 +60,7 @@
             "dish": "Carrot Cake",
             "price": "7.00",
             "type": "Dessert",
-            "restraunt": "Cornbred",
+            "restaurant": "Cornbred",
             "location": "EastAmes",
             "url": "./images/carrotcake.jpg"
         },
@@ -68,7 +68,7 @@
             "dish": "Porffle",
             "price": "14.00",
             "type": "Brunch",
-            "restraunt": "Cornbred",
+            "restaurant": "Cornbred",
             "location": "EastAmes",
             "url": "./images/porffle.jpg"
         },
@@ -76,7 +76,7 @@
             "dish": "Pad Thai",
             "price": "15.65",
             "type": "Stir Fry",
-            "restraunt": "Wasabi",
+            "restaurant": "Wasabi",
             "location": "EastAmes",
             "url": "./images/padThai.jpg"
         },
@@ -84,7 +84,7 @@
             "dish": "Shashimi Dinner",
             "price": "32.95",
             "type": "Sushi",
-            "restraunt": "Wasabi",
+            "restaurant": "Wasabi",
             "location": "EastAmes",
             "url": "./images/shashimiDinner.jpg"
         },
@@ -92,7 +92,7 @@
             "dish": "Shrimp Tempura Roll",
             "price": "10.35",
             "type": "Sushi",
-            "restraunt": "Wasabi",
+            "restaurant": "Wasabi",
             "location": "EastAmes",
             "url": "./images/shrimpTempura.jpg"
         },
@@ -100,7 +100,7 @@
             "dish": "I Love Ames Roll",
             "price": "16.65",
             "type": "Sushi",
-            "restraunt": "Wasabi",
+            "restaurant": "Wasabi",
             "location": "EastAmes",
             "url": "./images/iLoveAmesRoll.jpg"
         },
@@ -108,7 +108,7 @@
             "dish": "Turtle Cheesecake",
             "price": "7.35",
             "type": "Dessert",
-            "restraunt": "Wasabi",
+            "restaurant": "Wasabi",
             "location": "EastAmes",
             "url": "./images/turtleCheesecake.jpg"
         },
@@ -172,6 +172,4 @@
         }
 
     ]
-
-
 }
