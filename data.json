@@ -95,6 +95,22 @@
             "restraunt": "Wasabi",
             "location": "EastAmes",
             "url": "./images/shrimpTempura.jpg"
+        },
+        {
+            "dish": "I Love Ames Roll",
+            "price": "16.65",
+            "type": "Sushi",
+            "restraunt": "Wasabi",
+            "location": "EastAmes",
+            "url": "./images/iLoveAmesRoll.jpg"
+        },
+        {
+            "dish": "Turtle Cheesecake",
+            "price": "7.35",
+            "type": "Dessert",
+            "restraunt": "Wasabi",
+            "location": "EastAmes",
+            "url": "./images/turtleCheesecake.jpg"
         }
     ]
 
