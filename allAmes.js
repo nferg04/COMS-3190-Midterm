@@ -36,7 +36,7 @@ function loadDishes(myDishes, option) {
     for (var i = 0; i < sortedDishes.length; i++) {
         let dish = sortedDishes[i].dish;
         let price = sortedDishes[i].price;
-        let restaurant = sortedDishes[i].restraunt;
+        let restaurant = sortedDishes[i].restaurant;
         let type = sortedDishes[i].type;
         let url = sortedDishes[i].url;
         let AddDishCard = document.createElement("div");

@@ -41,7 +41,7 @@ function loadDishes(myDishes, option, location) {
         let dish = sortedDishes[i].dish;
         let price = sortedDishes[i].price;
         let type = sortedDishes[i].type;
-        let restaurant = sortedDishes[i].restraunt;
+        let restaurant = sortedDishes[i].restaurant;
         let url = sortedDishes[i].url;
         let AddDishCard = document.createElement("div");
         AddDishCard.classList.add("col");
