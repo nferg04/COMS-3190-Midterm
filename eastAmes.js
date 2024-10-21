@@ -39,7 +39,7 @@ function loadDishes(myDishes, option, location) {
         }
         else {
             for(var i =0; i < allDishes.length; i++) {
-                if(allDishes[i].type == filterType && allDishes[i].location == "CampusTown") {
+                if(allDishes[i].type == filterType && allDishes[i].location == "EastAmes") {
                     sortedDishes.push(allDishes[i]);
                 }
             }
