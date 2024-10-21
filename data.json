@@ -243,10 +243,10 @@
         {
             "dish": "beef burrito",
             "price": "7.55",
-            "type": "Mexical",
+            "type": "Mexican",
             "restaurant": "Mr. Burrito",
             "location": "CampusTown",
-            "url": "./images/ burrito.jpg"
+            "url": "./images/burrito.jpg"
         },
         {
             "dish": "Shrimp Fajitas",
