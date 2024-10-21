@@ -1,25 +1,40 @@
-function listAll(location) {
+document.addEventListener('DOMContentLoaded', () => loadData(1, "CampusTown"));
+
+let filterButton = document.getElementById("filterButton");
+filterButton.addEventListener("click", () => loadData(2, "CampusTown"));
+
+
+function loadData(option, location) {
     fetch("./data.json")
     .then(response => response.json())
-    .then(myDishes => loadDishes(myDishes, 1, location))
+    .then(myDishes => loadDishes(myDishes, option, location))
     .catch(err => console.log("Error: " + err))
 }
 
 
 function loadDishes(myDishes, option, location) {
+
     var dishCard = document.getElementById("col");
     dishCard.innerHTML = "";
     
     let allDishes = Object.values(myDishes)[0];
     let sortedDishes = [];
 
-    for(var i = 0; i < allDishes.length; i++) {
-        if(allDishes[i].location == location) {
-            sortedDishes.push(allDishes[i]);
+    if(option == 1) {
+        for(var i = 0; i < allDishes.length; i++) {
+            if(allDishes[i].location == location) {
+                sortedDishes.push(allDishes[i]);
+            }
         }
     }
 
-    if(option == 1) {
+    if(option == 2) {
+        let filterType = document.getElementById("filterInput").value;
+        for(var i =0; i < allDishes.length; i++) {
+            if(allDishes[i].type == filterType && allDishes[i].location == "CampusTown") {
+                sortedDishes.push(allDishes[i]);
+            }
+        }
     }
 
     for (var i = 0; i < sortedDishes.length; i++) {
@@ -28,7 +43,7 @@ function loadDishes(myDishes, option, location) {
         let restraunt = sortedDishes[i].restraunt;
         let url = sortedDishes[i].url;
         let AddDishCard = document.createElement("div");
-        AddDishCard.classList.add("col"); // Add Bootstrap class to the column
+        AddDishCard.classList.add("col");
         AddDishCard.innerHTML = `
             <div class="card shadow-sm">
                 <img src=${url} class="card-img-top" alt="..."></img>
