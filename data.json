@@ -3,7 +3,7 @@
         {
             "dish": "Breadsticks",
             "price": "4.25",
-            "type": "Appitizer",
+            "type": "Appetizer",
             "restaurant": "Jeffs Pizza",
             "location": "CampusTown",
             "url": "./images/breadsticks.png"
@@ -51,7 +51,7 @@
         {
             "dish": "Flappers",
             "price": "12.00",
-            "type": "Appitizer",
+            "type": "Appetizer",
             "restaurant": "Cornbred",
             "location": "EastAmes",
             "url": "./images/flappers.jpg"
@@ -131,7 +131,7 @@
         {
             "dish": "Lo Mein",
             "price": "7.50",
-            "type": "Lo Mein",
+            "type": "LoMein",
             "restaurant": "MU food court",
             "location": "Campus",
             "url": "./images/pandaLomein.jpg"

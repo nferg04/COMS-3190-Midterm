@@ -30,9 +30,18 @@ function loadDishes(myDishes, option, location) {
 
     if(option == 2) {
         let filterType = document.getElementById("filterInput").value;
-        for(var i =0; i < allDishes.length; i++) {
-            if(allDishes[i].type == filterType && allDishes[i].location == "CampusTown") {
-                sortedDishes.push(allDishes[i]);
+        if(filterType == "") {
+            for(var i = 0; i < allDishes.length; i++) {
+                if(allDishes[i].location == location) {
+                    sortedDishes.push(allDishes[i]);
+                }
+            }
+        }
+        else {
+            for(var i =0; i < allDishes.length; i++) {
+                if(allDishes[i].type == filterType && allDishes[i].location == "CampusTown") {
+                    sortedDishes.push(allDishes[i]);
+                }
             }
         }
     }
