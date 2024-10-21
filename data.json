@@ -17,6 +17,15 @@
             "restraunt": "Jimmy Johns",
             "location": "CampusTown",
             "url": "blah blah"
+        },
+        {
+            "id": 3,
+            "dish": "Single Slice",
+            "price": 10,
+            "type": "Pizza",
+            "restraunt": "Jeffs Pizza",
+            "location": "CampusTown",
+            "url": "blah blah"
         }
     ]
 }

@@ -54,6 +54,4 @@ function loadDishes(myDishes, option, location) {
         `;
         dishCard.appendChild(AddDishCard);
     }
-    dishCard.style.backgroundColor = "#eabe7c";
-
 }

@@ -40,10 +40,15 @@ h1{
     color: #141414;
     text-align: center;
     margin-top: 0px;
+    margin-bottom: 10px;
     padding-top: 0px;
+    padding-bottom: 5px;
 }
 
-.results {
+.card {
     background-color: #eabe7c;
-    color: #141414;
+}
+
+#filterButton {
+    margin-top: 5px;
 }
